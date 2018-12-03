@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+
+  background-color: #E8E8E8;
+}
+
+header{
+  background-color: #081c24;
+
+}
+
+nav{
+  float:right;
+
+}
+
+nav ul{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 35px;
+}
+
+nav a{
+  color: #01d277;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover{
+  color: #000;
+
+}
+
+header::after{
+  content:'';
+  display: table;
+  clear: both;
+}
+
+.container{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.body-header{
+  float:left;
+  padding-top: 10px;
+  font-weight: bold;
+
+}
+
+
+.logo{
+  float:left;
+  width: 80px;
+  padding: 10px 0;
+}
+
+.dropdown{
+  padding-right: 80px;
+
+}
+
+.search{
+  font-size: 40;
+  font-style: italic;
+  width: 100%;
+  padding: 14px 16px;
+  display: block;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-deck{
+  width: 75vh;
+  height:80%;
+  margin: 5px;
+  /* box-shadow: 0 0 2px 0 #111; */
+}
+
+.card-img-top{
+  height:290px;
+  width:242px;
+  padding:8px;
+  float:left;
+
+  /* display: inline; */
+}
+
+.card-title{
+  font-weight: bold;
+}
+
+.card-overview{
+
+  font-size: 10px;
+  font-style: italic;
+}
+
+.card-rating{
+  font-size: 12px;
+}
